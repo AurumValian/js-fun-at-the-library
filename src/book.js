@@ -13,10 +13,10 @@ function buildMainCharacter(name, age, pronouns) {
 };
 
 function saveReview(praise, reviews) {
-  if (reviews.includes(praise)) {
-    console.log(reviews);
+  if (reviews.includes(praise) === false) {
+      reviews.push(praise);
   } else {
-  reviews.push(praise);
+
   return reviews;
 }
 };

@@ -2,7 +2,6 @@ function shelfBook(book, shelf) {
   if (book.genre === 'scifi') {
     if (shelf.length < 3) {
     shelf.unshift(book);
-    console.log(shelf);
     return shelf;
   };
 };
